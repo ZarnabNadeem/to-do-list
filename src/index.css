@@ -1,0 +1,107 @@
+body{
+    background-image: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGYtczYxLWppcjAxMDUtY2hpbS0wMV8xLmpwZw.jpg');
+
+}
+
+.to-do-list{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    height: 100mvh;
+    border: 2px solid #121111;
+    border-radius: 20px;
+    padding: 10px;
+    /* margin-left: 200px;
+    margin-right: 200px; */
+}
+
+h1{
+    font-size: 4rem;
+}
+button{
+    font-size: 1.5rem;
+    padding: 7px 15px;
+    border: 1px solid rgb(163, 163, 163);
+    border-radius: 5px;
+    margin: 1px;
+    cursor: pointer;
+    transition: background-color 0.5 ease;
+}
+button{
+    background-color: hsl(120, 1%, 70%);
+}
+button:hover{
+    background-color: hsl(120, 1%, 41%);
+}
+
+input[type='text']{
+    font-size: 1.2rem;
+    padding: 8px;
+    border: 2px solid rgba(24, 23, 23, 0.611);
+    border-radius: 5px ;
+    color: #121111;
+}
+ol{
+    padding: 0;
+}
+
+li{
+    font-size: 1.2rem;
+    padding: 2px;
+    background-color: rgb(198, 198, 198);
+    border: 3px solid rgb(123, 123, 123);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    white-space: pre-wrap;
+}
+.text{
+    flex: 1;
+}
+.delete-button , .move-button{
+    padding: 8px 12px;
+    
+}
+
+/* Add this to your existing CSS */
+
+/* For screens with a maximum width of 768px (e.g. tablets) */
+@media only screen and (max-width: 768px) {
+.to-do-list {
+    margin-left: 50px;
+    margin-right: 50px;
+    }
+}
+   
+/* For screens with a maximum width of 480px (e.g. mobile phones) */
+@media only screen and (max-width: 480px) {
+.to-do-list {
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+
+}
+@media only screen and (max-width: 1366px) {
+.to-do-list {
+    margin-left: 50px;
+    margin-right: 50px;
+    }
+}
+@media only screen and (max-width: 1440px) {
+.to-do-list {
+    margin-left: 50px;
+    margin-right: 50px;
+    }
+  }
+@media only screen and (max-width: 1600px) {
+.to-do-list {
+    margin-left: 60px;
+    margin-right: 60px;
+    }
+li{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+  }
+
